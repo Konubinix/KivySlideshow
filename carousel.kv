@@ -1,0 +1,16 @@
+FloatLayout:
+    MyCarousel:
+        id: mycarousel
+		loop: True
+    MenuSpawner:
+        menu_args:
+            dict(
+            choices=[
+            dict(text='Rendre privé', index=1, callback=mycarousel.callback_current_set_private),
+            dict(text='Supprimer', index=2, callback=mycarousel.callback_current_set_private),
+            dict(text=u'Tagger pour redresser', index=3, callback=mycarousel.callback_current_set_wip),
+            dict(text=u'Stop', index=4, callback=mycarousel.callback_stop_automatic),
+            dict(text=u'Start', index=5, callback=mycarousel.callback_start_automatic),
+            dict(text=u'Nouvelles photos', index=6, callback=mycarousel.callback_new_photos),
+#            dict(text=u'Appliquer rotation', index=7, callback=mycarousel.callback_current_apply_rotation),
+            ])

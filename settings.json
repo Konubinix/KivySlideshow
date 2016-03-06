@@ -1,0 +1,14 @@
+[
+    { "type": "numeric",
+      "title": "Temps avant changement de slide",
+      "desc": "...",
+      "section": "config",
+      "key": "slide_time_interval"
+    },
+    { "type": "numeric",
+      "title": "Temps avant changement de photos",
+      "desc": "...",
+      "section": "config",
+      "key": "change_picture_interval"
+    }
+]
